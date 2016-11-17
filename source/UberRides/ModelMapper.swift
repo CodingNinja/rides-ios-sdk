@@ -25,8 +25,8 @@
 import ObjectMapper
 
 protocol UberModel: Mappable {
-    init?(_ map: Map)
-    mutating func mapping(_ map: Map)
+    init?(map: Map)
+    mutating func mapping(map: Map)
 }
 
 /**
